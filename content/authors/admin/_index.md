@@ -10,18 +10,21 @@ authors:
 superuser: true
 
 # Role/position
-role: Machine Learning Software Engineer Student. Currently doing a research internship at [Groupe Renault](https://group.renault.com/en/).
+role: PhD student in Deep Learning at IBISC Lab, Université Paris-Saclay.
 
 # Organizations/Affiliations
 organizations:
-- name: ENSEIRB-MATMECA
-  url: "https://enseirb-matmeca.bordeaux-inp.fr/fr"
+- name: IBISC Laboratory
+  url: "https://www.ibisc.univ-evry.fr/"
+- name: Université Paris-Saclay
+  url: "https://www.universite-paris-saclay.fr/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include explainability in Reinforcement Learning/Machine Learning, and Computer Vision (GANs mostly) applied to Advanced Driver Assistance Systems (ADAS). I am currently looking for a PhD scholarship starting next fall.
+bio: My research interests include Neural Architecture Search (NAS), AutoML, Deep Reinforcement Learning and explainability in Reinforcement Learning/Deep Learning. I am currently working on my PhD thesis titled "Jump Deep Learning in Automatic Control".
 
 interests:
-- Artificial Intelligence (especially Deep Learning)
+- Deep Learning
+- NAS, AutoML
 - GANs
 - Computer Vision
 - Reinforcement Learning
@@ -29,10 +32,13 @@ interests:
 
 education:
   courses:
+  - course: PhD in Computer Science, Deep Learning
+    institution: Univsersité Paris-Saclay
+    year: 2023
   - course: MSc in Software Engineering with an Artificial Intelligence speciality
     institution: École Nationale Supérieure d'Électronique, Informatique, Radiocommunications et Mathématiques-Mécanique de Bordeaux (ENSEIRB-MATMECA)
-    year: 2020 (expected graduation date)
-  - course: Two-years intense Mathematics and Physics curriculum (*CPGE*) 
+    year: 2020
+  - course: Two-years intense Mathematics and Physics curriculum (CPGE) 
     institution: Cycle Préparatoire de Bordeaux (CPBx)
     year: 2017
 
