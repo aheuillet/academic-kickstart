@@ -70,4 +70,4 @@ subtitle = ""
 Quickly discover relevant content by [filtering publications]({{< ref "/publication/_index.md" >}}).
 {{% /alert %}}
 
-- A.Heuillet, F.Couthouis and N. Diaz Rodriguez. **Explainability in Reinforcement Learning**. (*Work in progress, expected publication in March 2020*)
+- A.Heuillet, F.Couthouis and N. Diaz Rodriguez. **Explainability in Reinforcement Learning**. 2020 ([arXiv](https://arxiv.org/abs/2008.06693))

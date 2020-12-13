@@ -25,8 +25,8 @@ date_format = "Jan 2006"
   company_url = "https://group.renault.com/en/"
   location = "Paris, France"
   date_start = "2020-02-03"
-  date_end = ""
-  description = """I am working on Deep Learning (Computer Vision) applied to Advanced Driver Assistance Systems (ADAS). My current project aims to synthetize photorealistic street videos from semantic masks (segmented images) and environmental descriptions (e.g. weather or luminance conditions). This will help test onboard cameras mounted on autonomous vehicles."""
+  date_end = "2020-07-31"
+  description = """I worked on Deep Learning (GANs, mostly [Few-Shot Vid2Vid](https://nvlabs.github.io/few-shot-vid2vid/) from Nvidia Research) applied to Advanced Driver Assistance Systems (ADAS). My project aimed to synthetize photorealistic street videos from semantic masks (segmented images) and environmental descriptions (e.g. weather or luminance conditions). This helped test onboard cameras mounted on autonomous vehicles."""
 
 [[experience]]
   title = "Research Intern"
@@ -35,7 +35,7 @@ date_format = "Jan 2006"
   location = "Fukuoka, Japan"
   date_start = "2019-06-01"
   date_end = "2019-08-31"
-  description = """Worked on a Mixed Reality (Microsoft Hololens) app to reproduce human motions on holograms. This was part of a project that aimed to provide a better way to teach the Humanitude care method for elderly people."""
+  description = """Worked on a Mixed Reality (Microsoft Hololens) app to reproduce human motions on holograms. This was part of a project that aimed to provide a better way to teach the [Humanitude](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6336364/) care method for elderly people."""
 
 [[experience]]
   title = "Intern"
