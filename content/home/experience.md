@@ -18,6 +18,14 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
+[[experience]]
+  title = "Teaching Assistant"
+  company = "Université Paris Saclay"
+  company_url = "https://www.universite-paris-saclay.fr/en"
+  location = "Paris, France"
+  date_start = "2020-10-01"
+  date_end = "2023-10-01"
+  description = """I taught Deep Learning and Algorithmics classes in English for international M1 and M2 students ([ITEE](https://www.universite-paris-saclay.fr/en/education/master/electrical-engineering/m1-international-track-electrical-engineering), [MMVAI](https://www.universite-paris-saclay.fr/en/education/master/electrical-engineering/m2-mechatronics-machine-vision-and-artificial-intelligence))."""
 
 [[experience]]
   title = "Research Intern"
