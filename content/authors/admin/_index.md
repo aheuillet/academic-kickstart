@@ -10,10 +10,12 @@ authors:
 superuser: true
 
 # Role/position
-role: PhD student in Deep Learning at IBISC Lab, Université Paris-Saclay.
+role: PhD student in Deep Learning at IBISC Lab, Université Paris-Saclay. Incoming Visiting Student at MIT.
 
 # Organizations/Affiliations
 organizations:
+- name: Massachusetts Institute of Technology
+  url: "https://mit.edu"
 - name: IBISC Laboratory
   url: "https://www.ibisc.univ-evry.fr/"
 - name: Université Paris-Saclay
@@ -28,7 +30,6 @@ interests:
 - GANs
 - Computer Vision
 - Reinforcement Learning
-- Web Programming (as a hobby)
 
 education:
   courses:

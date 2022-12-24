@@ -70,5 +70,6 @@ subtitle = ""
 Quickly discover relevant content by [filtering publications]({{< ref "/publication/_index.md" >}}).
 {{% /alert %}}
 
+- A. Heuillet, H. Tabia, H. Arioui, and K. Youcef-Toumi. **D-DARTS: Distributed Differentiable Architecture Search**. [arXiv](https://arxiv.org/abs/2108.09306), 2022.
 - A. Heuillet, F. Couthouis and N. Diaz Rodriguez. **Collective eXplainable AI: Explaining Cooperative Strategies and Agent Contribution in Multiagent Reinforcement Learning With Shapley Values**. [IEEE Computational Intelligence Magazine](https://ieeexplore.ieee.org/abstract/document/9679742/), 2022.
 - A. Heuillet, F. Couthouis and N. Diaz Rodriguez. **Explainability in Reinforcement Learning**. [Knowledge-Based Systems](https://www.sciencedirect.com/science/article/pii/S0950705120308145), 2021.
