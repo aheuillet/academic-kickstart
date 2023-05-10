@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: PhD student in Deep Learning at IBISC Lab, Université Paris-Saclay. Incoming Visiting Student at MIT.
+role: PhD student in Deep Learning at IBISC Lab, Université Paris-Saclay. Visiting Student at MIT.
 
 # Organizations/Affiliations
 organizations:

@@ -19,6 +19,15 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
+  title = "Visiting Student"
+  company = "Massachusetts Institute of Technology"
+  company_url = "https://mit.edu"
+  location = "Cambridge, MA, USA"
+  date_start = "2023-01-15"
+  date_end = "2023-05-31"
+  description = """I am a Visiting Student in the [Mechatronics Research Lab](https://mechatronics.mit.edu/) working on automatic electrical motor control with neural architecture search. I am also the co-President of MIT [Visiting Student Association](https://vista.mit.edu)."""
+
+[[experience]]
   title = "Teaching Assistant"
   company = "Université Paris Saclay"
   company_url = "https://www.universite-paris-saclay.fr/en"
