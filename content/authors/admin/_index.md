@@ -10,26 +10,23 @@ authors:
 superuser: true
 
 # Role/position
-role: PhD student in Deep Learning at IBISC Lab, Université Paris-Saclay. Visiting Student at MIT.
+role: AI researcher working on Deep Learning applications to Computer Vision at Stereolabs. Occasional lecturer at Université Paris-Saclay.
 
 # Organizations/Affiliations
 organizations:
-- name: Massachusetts Institute of Technology
-  url: "https://mit.edu"
-- name: IBISC Laboratory
-  url: "https://www.ibisc.univ-evry.fr/"
+- name: Stereolabs
+  url: "https://www.stereolabs.com"
 - name: Université Paris-Saclay
   url: "https://www.universite-paris-saclay.fr/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include Neural Architecture Search (NAS), AutoML, Deep Reinforcement Learning and explainability in Reinforcement Learning/Deep Learning. I am currently working on my PhD thesis titled "Jump Deep Learning in Automatic Control".
+bio: I design highly efficient vision neural networks (ViTs,CNNs) targeting Nvidia Jetson platforms and performing a wide variety of computer vision tasks at high resolution. My research interests include Deep Neural Network Design, Neural Architecture Search (NAS), AutoML, Stereo Depth Estimation, and 3D scene reconstructionl.
 
 interests:
-- Deep Learning
+- Deep Learning (CNN, ViT, hybrid networks)
 - NAS, AutoML
-- GANs
+- Stereo Depth Estimation
 - Computer Vision
-- Reinforcement Learning
 
 education:
   courses:
