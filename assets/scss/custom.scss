@@ -1,0 +1,327 @@
+// ============================================================
+// Modern Academic — Custom overrides
+// ============================================================
+
+// --- Globals & typography ---
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  color: #111827;
+}
+
+h1 { font-size: 2.4rem; }
+h2 { font-size: 1.6rem; }
+h3 { font-weight: 600; font-size: 1.2rem; letter-spacing: -0.01em; }
+
+a { transition: color 0.2s ease !important; }
+
+// --- Navbar ---
+
+.navbar {
+  min-height: 64px !important;
+  backdrop-filter: saturate(180%) blur(12px);
+  -webkit-backdrop-filter: saturate(180%) blur(12px);
+  background: rgba(255, 255, 255, 0.88) !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.04) !important;
+  transition: background 0.3s ease !important;
+}
+
+.navbar-light .navbar-brand {
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: -0.02em;
+  color: #111827 !important;
+}
+
+.navbar-light .navbar-brand:hover,
+.navbar-light .navbar-brand:focus {
+  color: $sta-primary !important;
+}
+
+.navbar-light .navbar-nav > .nav-item > .nav-link {
+  font-weight: 500;
+  font-size: 0.875rem;
+  letter-spacing: 0;
+}
+
+// --- Home sections ---
+
+.home-section {
+  padding: 72px 0;
+}
+
+// Section heading underline accent
+.section-heading h1,
+.section-heading h2 {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 0.4rem;
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 2.5rem;
+    height: 3px;
+    background: $sta-primary;
+    border-radius: 99px;
+  }
+}
+
+// --- About / Profile ---
+
+.portrait {
+  width: 180px !important;
+  height: 180px !important;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow:
+    0 0 0 4px rgba(37, 99, 235, 0.12),
+    0 8px 32px rgba(0, 0, 0, 0.10);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  margin: 0 auto 1.5rem !important;
+}
+
+.portrait:hover {
+  box-shadow:
+    0 0 0 6px rgba(37, 99, 235, 0.22),
+    0 16px 40px rgba(0, 0, 0, 0.14);
+  transform: translateY(-3px);
+}
+
+.portrait-title h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  color: #111827;
+  margin-bottom: 0.25rem;
+}
+
+.portrait-title h3 {
+  font-weight: 400;
+  font-size: 0.95rem;
+  color: #6b7280;
+  margin-top: 0;
+}
+
+.portrait-title a {
+  color: $sta-primary;
+}
+
+// Social links below portrait
+#profile .network-icon .btn {
+  border-radius: 50% !important;
+  width: 36px;
+  height: 36px;
+  padding: 0 !important;
+  line-height: 36px;
+  background: rgba(37, 99, 235, 0.06);
+  color: $sta-primary;
+  border: 1px solid rgba(37, 99, 235, 0.12);
+  transition: background 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    background: $sta-primary;
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+    border-color: $sta-primary;
+  }
+}
+
+// --- Interests & Education ---
+
+.ul-interests li,
+.ul-edu li {
+  line-height: 1.6;
+  margin-bottom: 0.25rem;
+}
+
+// --- Cards ---
+
+.card {
+  border: 1px solid rgba(0, 0, 0, 0.07) !important;
+  border-radius: 12px !important;
+  box-shadow:
+    0 1px 3px rgba(0, 0, 0, 0.04),
+    0 4px 16px rgba(0, 0, 0, 0.04) !important;
+  transition: transform 0.22s ease, box-shadow 0.22s ease !important;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow:
+    0 4px 12px rgba(0, 0, 0, 0.08),
+    0 20px 48px rgba(0, 0, 0, 0.08) !important;
+}
+
+.card-body {
+  padding: 1.25rem 1.5rem !important;
+}
+
+// --- Publication / article listings ---
+
+h3.article-title {
+  font-weight: 600 !important;
+  letter-spacing: -0.01em;
+  font-size: 1.05rem !important;
+}
+
+h3.article-title a {
+  color: #111827;
+}
+
+h3.article-title a:hover {
+  color: $sta-primary;
+}
+
+.article-metadata {
+  font-size: 0.8rem;
+  color: #6b7280;
+}
+
+// --- Tags / badges ---
+
+.badge-light {
+  border-radius: 6px !important;
+  font-weight: 500 !important;
+  font-size: 0.75rem;
+  padding: 4px 10px !important;
+  background: rgba(37, 99, 235, 0.07) !important;
+  color: $sta-primary !important;
+  border: 1px solid rgba(37, 99, 235, 0.15) !important;
+  transition: background 0.2s ease !important;
+
+  &:hover {
+    background: rgba(37, 99, 235, 0.14) !important;
+  }
+}
+
+// --- Buttons ---
+
+.btn {
+  border-radius: 7px !important;
+  font-weight: 500 !important;
+  font-size: 0.78rem !important;
+  padding: 6px 14px !important;
+  line-height: 1.4 !important;
+  transition: all 0.2s ease !important;
+}
+
+.btn-links .btn {
+  border-radius: 7px !important;
+}
+
+.btn-primary {
+  box-shadow: 0 1px 3px rgba(37, 99, 235, 0.2);
+
+  &:hover {
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.35);
+    transform: translateY(-1px);
+  }
+}
+
+.btn-outline-primary {
+  &:hover {
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
+    transform: translateY(-1px);
+  }
+}
+
+// --- Experience widget ---
+
+.exp-title {
+  font-weight: 700;
+  font-size: 1rem;
+  color: #111827;
+}
+
+.exp-company {
+  font-weight: 500;
+  color: $sta-primary;
+}
+
+// --- Alerts / shortcodes ---
+
+.alert-note {
+  border-radius: 8px;
+  border-left-width: 3px;
+}
+
+// --- Code blocks ---
+
+pre {
+  border-radius: 10px !important;
+  border: 1px solid rgba(0, 0, 0, 0.07) !important;
+  font-size: 0.82rem;
+}
+
+code {
+  font-size: 0.85em;
+  border-radius: 4px;
+  padding: 0.1em 0.35em;
+}
+
+// --- Footer ---
+
+footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+  margin-top: 2rem !important;
+}
+
+// --- Dark mode adjustments ---
+
+.dark h1,
+.dark h2,
+.dark h3,
+.dark h4,
+.dark h5,
+.dark h6 {
+  color: rgb(229, 231, 235);
+}
+
+.dark .card {
+  border-color: rgba(255, 255, 255, 0.07) !important;
+  box-shadow:
+    0 1px 3px rgba(0, 0, 0, 0.2),
+    0 4px 16px rgba(0, 0, 0, 0.2) !important;
+}
+
+.dark .badge-light {
+  background: rgba(96, 165, 250, 0.1) !important;
+  color: #60a5fa !important;
+  border-color: rgba(96, 165, 250, 0.2) !important;
+}
+
+.dark .navbar {
+  background: rgba(17, 24, 39, 0.88) !important;
+  border-bottom-color: rgba(255, 255, 255, 0.06);
+}
+
+.dark footer {
+  border-top-color: rgba(255, 255, 255, 0.06);
+}
+
+.dark h3.article-title a {
+  color: rgb(229, 231, 235);
+}
+
+.dark .portrait {
+  box-shadow:
+    0 0 0 4px rgba(96, 165, 250, 0.2),
+    0 8px 32px rgba(0, 0, 0, 0.4);
+}
+
+.dark pre {
+  border-color: rgba(255, 255, 255, 0.07) !important;
+}

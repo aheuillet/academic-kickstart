@@ -1,0 +1,18 @@
+# Theme metadata
+name = "Modern Blue"
+
+# Is theme light or dark?
+light = true
+
+# Primary accent color
+primary = "#2563eb"
+
+# Navbar
+menu_primary = "#ffffff"
+menu_text = "#374151"
+menu_text_active = "#2563eb"
+menu_title = "#111827"
+
+# Home sections
+home_section_odd = "rgb(255, 255, 255)"
+home_section_even = "rgb(249, 250, 251)"
