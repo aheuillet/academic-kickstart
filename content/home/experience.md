@@ -19,13 +19,22 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
+  title = "AI Research Scientist"
+  company = "Stereolabs"
+  company_url = "https://stereolabs.com"
+  location = "Montrouge, France"
+  date_start = "2023-11-01"
+  date_end = ""
+  description = """I conduct research on efficient AI-based depth estimation, object detection and semantic segmentation. I focus on CNN and ViT architectural design for foundational-level performance on edge devices (Nvidia Jetson). """
+
+[[experience]]
   title = "Visiting Student"
   company = "Massachusetts Institute of Technology"
   company_url = "https://mit.edu"
   location = "Cambridge, MA, USA"
   date_start = "2023-01-15"
   date_end = "2023-05-31"
-  description = """I am a Visiting Student in the [Mechatronics Research Lab](https://mechatronics.mit.edu/) working on automatic electrical motor control with neural architecture search. I am also the co-President of MIT [Visiting Student Association](https://vista.mit.edu)."""
+  description = """I was a Visiting Student in the [Mechatronics Research Lab](https://mechatronics.mit.edu/) working on automatic electrical motor control with neural architecture search. I also was the co-President of MIT [Visiting Student Association](https://vista.mit.edu)."""
 
 [[experience]]
   title = "Teaching Assistant"

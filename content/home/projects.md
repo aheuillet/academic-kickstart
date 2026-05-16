@@ -75,6 +75,14 @@ subtitle = ""
  css_class = ""
 +++
 
+## **NASiam: Efficient Representation Learning using Neural Architecture Search for Siamese Networks**
+
+Implementation of my paper on using Differentiable Neural Architecture Search for improving self-supervised Representation Learning. Code available [here](https://github.com/aheuillet/NASiam)
+
+## **Pokemon Gold Deep Reinforcement Learning**
+
+I coded a deep RL agent that learns to play Pokemon Gold through self-supervised learning and self-play. Code available [here] (https://github.com/aheuillet/gold_deep_rl)
+
 ## **Explainability in Reinforcement Learning**
 
 I participated in the redaction of a survey on state-of-the-art explainability methods for reinforcement learning.
@@ -84,7 +92,3 @@ Check out our code [here](https://github.com/Fabien-Couthouis/XAI-in-RL)!
 ## **ARNN**
 
 As part of a school project, I created a Web app (using [Django](https://www.djangoproject.com/)) for [INRIA](https://www.inria.fr/en) researchers that helped them train their RNNs (Recurrent Neural Networks) and visualize results in an intuitive way. Check out the code [here](https://github.com/aheuillet/ARNN)!
-
-## **Othello Player**
-
-I implemented an [AlphaZero](https://arxiv.org/pdf/1712.01815.pdf)-like [Othello](https://en.wikipedia.org/wiki/Reversi) player as a school project. It is based on a [Monte-Carlo Tree Search](https://en.wikipedia.org/wiki/Monte_Carlo_tree_search) algorithm improved by a neural network powered move prediction.
