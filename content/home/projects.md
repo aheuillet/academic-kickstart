@@ -81,7 +81,7 @@ Implementation of my paper on using Differentiable Neural Architecture Search fo
 
 ## **Pokemon Gold Deep Reinforcement Learning**
 
-I coded a deep RL agent that learns to play Pokemon Gold through self-supervised learning and self-play. Code available [here] (https://github.com/aheuillet/gold_deep_rl)
+I coded a deep RL agent that learns to play Pokemon Gold through self-supervised learning and self-play. Code available [here](https://github.com/aheuillet/gold_deep_rl)
 
 ## **Explainability in Reinforcement Learning**
 

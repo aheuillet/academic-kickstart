@@ -23,8 +23,9 @@ organizations:
 bio: I design highly efficient vision neural networks (ViTs,CNNs) targeting Nvidia Jetson platforms and performing a wide variety of computer vision tasks at high resolution. My research interests include Deep Neural Network Design, Neural Architecture Search (NAS), AutoML, Stereo Depth Estimation, and 3D scene reconstructionl.
 
 interests:
-- Deep Learning (CNN, ViT, hybrid networks)
-- NAS, AutoML
+- Deep Learning Architectural Design (CNN, ViT, hybrid networks)
+- Neural Architecture Search, AutoML
+- Self-supervised Learning
 - Stereo Depth Estimation
 - Computer Vision
 
